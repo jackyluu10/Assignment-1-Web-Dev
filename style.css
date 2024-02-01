@@ -1,0 +1,47 @@
+body {
+    background-image: url('images-2.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: sans-serif;
+
+}
+
+#main {
+   text-align: center;
+}
+
+#content {
+    display: flex; 
+}
+
+#leftcontent, #rightcontent {
+    text-align: left;
+    flex: 1; 
+}
+
+#profilephoto {
+    width: 40%; 
+    height: auto; 
+}
+tr:nth-child(even) {
+    background-color: #968cd5;
+  }
+  ul {
+    list-style: none;
+  }
+#Hobbies{
+    text-align: left;
+}
+#Job-Education{
+    text-align: left;
+}
+#table {
+    text-align: center;
+}
+a:hover{
+    color:orange
+}
+.highlight{
+    color: red;
+    font-weight: bold; 
+}
